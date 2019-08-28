@@ -37,7 +37,7 @@ Liunx运行jar命令：java -jar readNews.jar  args0 args1
 
 
 #### 五、前端展示(SSM+Echarts) 
-1、SSM工程搭建
+1、SSM工程搭建       
 2、采用WebSocket全双工通信方式使前端与后端实时交互
 
 
