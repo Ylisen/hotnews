@@ -14,5 +14,5 @@ Liunx运行jar命令：java -jar readNews.jar  args0 args1
 ~~~
 
 #### 二、Flume与HBase、Kafka数据对接
-* Flume采集数据源数据与HBase集成 -->  HBase与Hive对接  ——>   Hadoop MapReduce 完成离线计算分析  ——>  前台Echart展示
-* Flume采集数据源与Kafka集成 ——> Kafka与Spark Streaming对接  ——> Spark + MySQL完成实时计算分析  ——>  前台Echart展示
+* Flume采集源数据与HBase集成 -->  HBase与Hive对接  -->  Hadoop MapReduce 完成离线计算分析  -->  前台Echart展示
+* Flume采集源数据与Kafka集成 --> Kafka与Spark Streaming对接 --> Spark+MySQL完成实时计算分析  -->  前台Echart展示
