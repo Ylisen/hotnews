@@ -23,6 +23,6 @@ Liunx运行jar命令：java -jar readNews.jar  args0 args1
 ### 三、Kafka+Spark Streaming + MySQL实时计算分析
 1、数据库连接池编写    
 2、spark streaming 程序读取kafka数据
-3、spark streamign 实时计算处理后的数据写入MySQL
+3、spark streamign 实时计算处理后的数据写入MySQL       
 细节：
 从Kafka读取数据后 --> 新闻数据 --> 将value映射为Map[String,String] --> 分割、根据key分组、聚合 --> 根据key值写入sql --> 保存于MySQL
