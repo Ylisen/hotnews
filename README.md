@@ -43,7 +43,7 @@ Liunx运行jar命令：java -jar readNews.jar  args0 args1
 
 
 #### 六、效果图    
-![]()  
+![png](/png)  
 
 
 
