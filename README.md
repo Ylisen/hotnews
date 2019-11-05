@@ -1,10 +1,15 @@
 # hotnews-log-real-time-analysis
 
-### 项目描述
+### 项目描述    
+本项目是一个完整的大数据项目实战，实时|离线统计分析用户的搜索话题，并用JavaEE工程前端界面展示出来。这些指标对网站的精准营销、运营都有极大帮助。架构大致是按照企业标准来的，从日志的采集、转化处理、实时计算、JAVA后台开发、WEB前端展示，一条完整流程线下来，甚至每个节点都用的高可用架构，都考虑了故障转移和容错性。
 
-### 项目技术栈
+### 项目技术栈   
+Flume + KafKa + Hbase + Hive + Spark(SQL、Structured Streaming)    
+Mysql + SpringMVC + Mybatis + Websocket + AugularJs + Echarts    
+JAVA + Scala + Shell   
 
-### 项目环境
+### 项目环境    
+Linux、 win、 idea   
 
 ### 项目基本流程
 #### 一、数据处理
