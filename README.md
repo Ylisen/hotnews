@@ -53,6 +53,8 @@ Liunx运行jar命令：java -jar readNews.jar  args0 args1
 
 
 
-
+#### Links
+* Flume与Hbase整合经验    
+[https://cloud.tencent.com/developer/article/1025430](https://cloud.tencent.com/developer/article/1025430)
 
 
