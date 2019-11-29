@@ -8,6 +8,9 @@ Flume + KafKa + Hbase + Hive + Spark(SQL、Structured Streaming)
 Mysql + SpringMVC + Mybatis + Websocket + AugularJs + Echarts    
 JAVA + Scala + Shell   
 
+### 项目技术架构
+![1](1)
+
 ### 项目环境    
 Linux、 win、 idea   
 
