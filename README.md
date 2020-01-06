@@ -26,7 +26,7 @@ Liunx运行jar命令：java -jar readNews.jar  args0 args1
 * Flume采集源数据与HBase集成 -->  HBase与Hive对接  -->  Hadoop MapReduce 完成离线计算分析  -->  前台Echart展示
   
 
-#### 三、Kafka + Spark Streaming + MySQL实时计算分析
+#### 三、Flume + Kafka + Spark Streaming + MySQL实时计算分析
 实时：话题浏览量       
 1、数据库连接池编写    
 2、spark streaming 程序读取kafka数据
@@ -35,7 +35,7 @@ Liunx运行jar命令：java -jar readNews.jar  args0 args1
 从Kafka读取数据后 --> 新闻数据 --> 将value映射为Map[String,String] --> 分割、根据key分组、聚合 --> 根据key值写sql --> 保存于MySQL
 
 
-#### 四、Kafka + HBase + Hive(Hadoop) 离线计算分析
+#### 四、Flume + HBase + Hive 离线计算分析
 离线：日访问量、话题数    
 1、Kafka与HBase对接   
 2、HBase与Hive对接  
